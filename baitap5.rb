@@ -34,3 +34,9 @@ for i in 0..n
       end
     end
 end
+
+# Code của e gọn, dễ đọc, bắt được những exception của user input
+# A có vài góp ý nhỏ:
+# 1. Tên biến e cần đặt có ý nghĩa hơn. Vd: n
+# 2. Giữ phép toán so sánh, e nên cách ra cho dễ đọc. VD: if i==n -> if i == n
+# 3. Em có thể xem xét tách thêm hàm check input của user nhập vào có hợp lệ hay kg ra 1 hàm để 
